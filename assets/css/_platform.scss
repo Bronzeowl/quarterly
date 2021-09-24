@@ -1,0 +1,27 @@
+
+//Platform Styling
+.preview + #exit {
+  display: flex !important;
+  background: #fff;
+  .modal-content{
+    box-shadow: 5px 8px 18px #888;
+  }
+}
+.preview-page {
+  padding-top: 0 !important;
+  margin-top: 50px !important;
+  .vmsWrap {
+      margin-top: 50px;
+  }
+}
+.preview + .thankyou, .conf + .interstitial {
+  display: none !important;
+}
+.preview + .conf {
+  display: flex !important;
+  background: #fff;
+  .modal-content{
+    box-shadow: 5px 8px 18px #888;
+  }
+}
+
